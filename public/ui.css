@@ -1,0 +1,117 @@
+@font-face {
+    font-family: pro;
+    src: url(Product.ttf);
+}
+body {
+    background: linear-gradient(to left, #ff9966, #ff5e62);
+}
+h1 {
+    color: white;
+    font-family: pro;
+}
+.main {
+    margin-top: 2%;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.navbar {
+    position: fixed;
+    right: 0px;
+}
+.navbar a {
+    color: white;
+    font-family: pro;
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.social {
+    left: 0px;
+    position: fixed;
+}
+.about {
+    padding-top: 35vh;
+    padding-bottom: 35vh;
+}
+.exp {
+    padding-top: 35vh;
+    padding-bottom: 35vh;
+}
+.projects {
+    padding-top: 35vh;
+    padding-bottom: 35vh;
+}
+.neofetch {
+    padding-top: 35vh;
+    padding-bottom: 35vh;
+}
+.small-header{
+    color: pink;
+    margin: 5px;
+    font-size: 25px;
+}
+.big-header {
+    margin: 5px;
+    font-size: 50px;
+}
+.desc {
+    color: #FFFFF0;
+    font-family: pro;
+    font-size: 20px;
+}
+.desc a {
+    color: #add8e4;
+    text-decoration: none;
+}
+.desc a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.social img {
+    padding: 10px;
+    transition: all .2s ease-in-out; 
+}
+.social img:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+.projects img {
+    border-radius: 30px;
+    transition: all .2s ease-in-out; 
+}
+.projects img:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+.projects p {
+    color: white;
+    font-size: 30px;
+    font-family: pro;
+    margin: 4px;
+    text-align: center;
+}
+.contributions {
+    padding-top: 35vh;
+    padding-bottom: 35vh;
+}
+.contributions p {
+    color: white;
+    font-size: 30px;
+    font-family: pro;
+    margin: 4px;
+    text-align: center;
+}
+.contributions img {
+    border-radius: 30px;
+    transition: all .2s ease-in-out; 
+}
+.contributions img:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
+}
